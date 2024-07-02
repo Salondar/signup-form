@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "norsebold";
+    src: 
+        url("fonts/norse-bold-webfont.woff2") format("woff2"),
+        url("fonts/norse-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    appearance: none;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container {
+    width: 50%;
+    height: 900px;
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container {
+    display: flex;
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.odin-logo {
+    width: 80px;
+    height: 100px;
+    padding: 10px 0;
+    margin-left: 80px;
+}
+
+.logo-text {
+    font-family: "norsebold";
+    padding: 10px 0;
+    font-size: 100px;
+    color: white
+}
+
+.right-container {
+    padding-left: 50px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.intro-text {
+    padding-top: 100px;
+    width: 500px;
+}
+
+.signup-tease {
+    margin-top: 40px;
+}
+
+.intro-text,
+.signup-call,
+.signup-tease,
+.call {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.call {
+    margin-bottom: 20px;
+}
+.form-container {
+    margin-top: 40px;
+}
+
+input, label {
+    display: block;
+}
+
+.info {
+    display: flex;
+    gap: 65px;
+}
+
+input {
+    height: 28px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #E5E7EB;
+}
+
+label {
+    font-size: smaller;
+    font-weight: bold;
+    color: black;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 200px;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #4CAF50;
+}
+
+.log-prompt {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+.match-text {
+    color: red;
+    font-size: 10px;
+}

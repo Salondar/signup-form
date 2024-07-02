@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <img src="assets/halie-west.jpg" alt="background-image" class="background-image">
+            <div class="logo-container">
+                <img src="assets/odin-lined.png" alt="odin-logo" class="odin-logo">
+                <span class="logo-text">Odin</span>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="intro-container">
+                <p class="intro-text">
+                    This is not a real online service. You know you need something like this in your life to help you realise your deepest dreams.
+                </p>
+                <p class="signup-call">Sign up <em>now</em> to get started.</p>
+                <p class="signup-tease">You <em>know</em> you want to</p>
+            </div>
+            <div class="form-container">
+                <p class="call">Let's do this!</p>
+                <form>
+                    <div class="name info">
+                        <div class="first-name-container row">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="last-name-container row">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <div class="contact info">
+                        <div class="email-container row">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="phone-number-container row">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel"  name="phone-number" id="phone-number">
+                        </div>
+                    </div>
+                    <div class="password info">
+                        <div class="first-password-container row">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                            <p class="match-text"></p>
+                        </div>
+                        <div class="confirm-password-container row">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="button-container">
+                <button type="submit">Create Account</button>
+                <p class="log-prompt">Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
